@@ -1,0 +1,21 @@
+#include<iostream>
+#include<conio.h>
+using namespace std
+int main(){
+int choice,quant,extra,snack,again;
+xy:
+cout<<"enter your coeffee choice 1:capachino 2:choco latte 3:cold bru 4:dont want anything??";
+cin>>choice;
+cout<<" enter cup size 1:small 2:med 3:large";
+cin>>quant;
+cout<<" want anything extra with this 1:yes 0:no";
+cin>>extra;
+if(extra){
+cout<<" press 1:chips 2:cupcakes 3:nachos";
+cin>>snack;
+}
+cout<<"wanna change your order 1:yes 0:no";
+cin>>again;
+if(again)
+{ goto xy;
+}
