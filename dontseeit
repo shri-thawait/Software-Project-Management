@@ -1,0 +1,13 @@
+void bill(int a, int n)
+{
+cout<<"print bill";
+
+for(int i=0;i<n;i++)
+
+
+
+
+
+
+
+}
