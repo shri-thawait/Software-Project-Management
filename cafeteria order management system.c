@@ -78,14 +78,14 @@ void login()
 	//scanf("%s",&pword); 
 		if(strcmp(uname,"user")==0 && strcmp(pword,"pass")==0)
 	{
-	printf("  \n\n\n       WELCOME TO CAFETERIA ORDER SYSTEM !!!! LOGIN IS SUCCESSFUL");
+	printf("  \n\n\n       WELCOME TO CAFETERIA ORDER SYSTEM !! LOGIN SUCCESSFUL");
 	printf("\n\n\n\t\t\t\tPress any key to continue...");
 	getch();//holds the screen
 	break;
 	}
 	else
 	{
-		printf("\n        SORRY !!!!  LOGIN IS UNSUCESSFUL");
+		printf("\n            LOGIN IS UNSUCESSFUL");
 		a++;
 		
 		getch();//holds the screen
