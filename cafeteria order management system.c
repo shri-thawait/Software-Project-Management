@@ -5,7 +5,7 @@
 #include<ctype.h>
 #include<windows.h>
 
-#define ANS 15
+#define ANS 16
 #define ACS 4
 COORD coord= {0,0}; // this is global variable
 void gotoxy(int x,int y)
